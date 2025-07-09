@@ -1,0 +1,13 @@
+:root {
+    --light:white;
+    --dark:black;
+    --secondary:rgb(243,244,246); 
+    --main-color:rgb(113,75,103);
+    --link-color:rgb(60,156,160);
+}
+html , body {
+    font-family: "Inter", sans-serif;
+}
+h1 {
+    font-family: "Caveat", cursive;
+}
