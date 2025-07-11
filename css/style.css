@@ -4,6 +4,15 @@
     --secondary:rgb(243,244,246); 
     --main-color:rgb(113,75,103);
     --link-color:rgb(60,156,160);
+    --btn-hover-color:rgb(92, 60, 83);
+    --nav-font-size:.7rem;
+    --grean:rgb(2,127,132);
+    --pink-red:rgb(240,176,181);
+    --second-grean:rgb(71,115,143);
+    --gray:rgb(141,140,175);
+    --second-gray:rgb(92,91,128);
+    --orange:rgb(240,115,70);
+    --dark-orange:rgb(213,101,62);
 }
 html , body {
     font-family: "Inter", sans-serif;
@@ -11,3 +20,205 @@ html , body {
 h1 {
     font-family: "Caveat", cursive;
 }
+a {
+    text-decoration: none;
+    color:var(--dark)
+}
+ul {
+    list-style-type: none;
+}
+
+/* components design */
+.btn-purple {
+    background-color: var(--main-color);
+    color: var(--light);
+    font-size: var(--nav-font-size);
+    transition: .5s;
+    max-width: 100px;
+}
+
+.btn-purple:hover {
+    background-color: var(--btn-hover-color);
+    color: var(--light);
+}
+
+/* navbar style */
+.navbar {
+  background-color: var(--light);
+  font-size: var(--nav-font-size);
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+  --bs-navbar-active-color: var(--main-color);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-nav-link-padding-x: 0.9rem;
+    
+}
+.navbar .drop {
+    position: relative;
+    cursor: pointer;
+   
+}
+
+.navbar .drop::before {
+    content: "";
+    width: 90%;
+    height: 18px;
+    position: absolute;
+    top:25%;  
+    transform: translateX(-20%);   
+    border-left: 2px solid rgb(231, 224, 224);   
+}
+
+
+.dropdown-menu, .o_dropdown_menu {
+    border: none;
+    border-top:1px solid var(--gray);
+    width: 100%;
+    background-color: var(--light);
+    border-radius: 0px;
+    font-size: .8rem;    
+}
+
+.dropdown-menu ul {
+    transform: translateX(-10%);
+}
+
+ .col-md-3:nth-child(1) h2  {
+    color: var(--grean); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(1) h2::after {
+    content: "";
+    background-color: var(--grean);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+.col-md-3:nth-child(2) h2  {
+    color: var(--pink-red); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(2) h2::after {
+    content: "";
+    background-color: var(--pink-red);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+
+.col-md-3:nth-child(3) h2  {
+    color: var(--second-grean); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(3) h2::after {
+    content: "";
+    background-color: var(--second-grean);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+
+.col-md-3:nth-child(4) h2  {
+    color: var(--gray); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(4) h2::after {
+    content: "";
+    background-color: var(--gray);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+.col-md-3:nth-child(5) h2  {
+    color: var(--second-gray); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(5) h2::after {
+    content: "";
+    background-color: var(--second-gray);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+
+.col-md-3:nth-child(6) h2  {
+    color: var(--orange); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(6) h2::after {
+    content: "";
+    background-color: var(--orange);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+
+.col-md-3:nth-child(7) h2  {
+    color: var(--dark-orange); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(7) h2::after {
+    content: "";
+    background-color: var(--dark-orange);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+
+
+
+.col-md-3:nth-child(8) h2  {
+    color: var(--main-color); 
+    position: relative;  
+}
+
+.col-md-3:nth-child(8) h2::after {
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width:80%;
+    height: 2px;
+}
+

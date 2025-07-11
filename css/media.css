@@ -1,0 +1,24 @@
+@media screen and (max-width:992px) {
+    .btn-group.area-hide {
+        display: none !important;
+    }
+    .display-group {
+        display: flex !important;       
+    }
+
+    .navbar-nav {
+        align-items: center;
+        width:100%;
+        position: relative;
+    }
+
+    .navbar .drop::before {       
+        border:none;
+    }
+ 
+    .navbar-nav .nav-link:not(.dropdown-toggle) {        
+        padding: 20px 0px;
+    }
+    
+
+}
