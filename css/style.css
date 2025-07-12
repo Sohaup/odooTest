@@ -13,6 +13,8 @@
     --second-gray:rgb(92,91,128);
     --orange:rgb(240,115,70);
     --dark-orange:rgb(213,101,62);
+    --btn-gray-hover:rgb(223, 224, 228);
+    --terquise:rgb(1,126,132);
 }
 html , body {
     font-family: "Inter", sans-serif;
@@ -28,7 +30,7 @@ ul {
     list-style-type: none;
 }
 
-/* components design */
+/* components & utilities design */
 .btn-purple {
     background-color: var(--main-color);
     color: var(--light);
@@ -40,6 +42,48 @@ ul {
 .btn-purple:hover {
     background-color: var(--btn-hover-color);
     color: var(--light);
+}
+
+.btn-gray {
+    background-color: var(--secondary);
+    color: var(--main-color);
+    font-size: var(--nav-font-size);
+    transition: .5s;
+    max-width: 100px;
+}
+
+.btn-gray:hover {
+    background-color: var(--btn-gray-hover);
+    color: var(--main-color);
+}
+
+.max-w-200 {
+    max-width: 200px;
+}
+
+.font-rem {
+    font-size: 1rem !important;
+}
+
+.font-1_5rem {
+    font-size: 1.5rem;
+}
+
+.font-2rem {
+    font-size: 1.8rem !important;
+}
+
+.w-80 {
+    width: 95% ;
+    padding-left: 5%;
+}
+
+.text-terquise {
+    color: var(--terquise);
+}
+
+.font-cavaet {
+    font-family: "Caveat", cursive;;
 }
 
 /* navbar style */
@@ -222,3 +266,15 @@ ul {
     height: 2px;
 }
 
+/* landing style */
+.title h1 img {
+    position: absolute;
+    bottom: 0;
+    left:10%;
+    width: 80%;
+    z-index: -1;    
+}
+
+.landing .details {
+   text-rendering: auto;
+}
