@@ -15,6 +15,7 @@
     --dark-orange:rgb(213,101,62);
     --btn-gray-hover:rgb(223, 224, 228);
     --terquise:rgb(1,126,132);
+    --paragraph-color:rgb(128, 131, 136);
 }
 html , body {
     font-family: "Inter", sans-serif;
@@ -29,7 +30,9 @@ a {
 ul {
     list-style-type: none;
 }
-
+p {
+    color: var(--paragraph-color);
+}
 /* components & utilities design */
 .btn-purple {
     background-color: var(--main-color);
@@ -303,11 +306,11 @@ ul {
     z-index: -1;
 }
 
-.cont {
+.landing .cont {
     box-shadow: 1px 5px 10px var(--dark);
 }
 
-.cont::before {
+.landing .cont::before {
     content: "";
     position: absolute;
     top:-80px;
@@ -355,3 +358,33 @@ ul {
     border: 15px solid var(--light);
 }
 
+/* section king style  */
+
+
+.king  {
+    overflow: hidden;
+}
+
+.king .details p {
+    font-size: 1.3rem;
+}
+
+.king .cont::before {
+   content: " ";
+   position: absolute;
+   right: -5%;
+   top:35%;   
+   width: 48%;
+   height: 60%;   
+   background-color: var(--secondary);
+   border-radius: 50%/25%;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   z-index: -1;
+   
+} 
+
+
+.brushImage {
+    left: -2%;
+} 
