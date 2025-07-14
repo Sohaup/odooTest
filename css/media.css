@@ -1,3 +1,10 @@
+@media screen and (max-width:576px) {
+    .preview .details p {
+        font-size: 1rem;
+    }
+}
+
+
 @media screen and (max-width:992px) {
     .btn-group.area-hide {
         display: none !important;
@@ -20,5 +27,20 @@
         padding: 20px 0px;
     }
     
+   /* section preview media style */
+   .cont::before {
+    display: none;
+   }
 
+   .preview .video video {
+    width: 100%;
+   }
+
+   .brush {
+    display: none;
+   }
+
+   .preview .details p {
+     width: 100%;     
+   }
 }
