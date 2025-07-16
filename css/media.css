@@ -1,0 +1,87 @@
+@media screen and (max-width:576px) {
+    /* preview media style */
+    .preview .details p {
+        font-size: 1rem;
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    /* loyality medua style */
+    .loyality .money-img , .loyality .heart-img {
+        display: none;
+    } 
+   
+
+    .loyality h3 {
+        width: 100%;  
+        text-align: center;
+        transform: translateX(-10%);
+    }
+
+    .loyality .details p {
+        width: 100%; 
+        text-align: center;       
+    }
+
+
+    .loyality .visuals .img-tom   {
+       width: 80%;
+       margin-inline: auto;
+    }
+   
+    .loyality .visuals .img-annabel {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    /* spot media style */
+
+    .spot .details h3  {
+        width: 80% ;
+    }
+
+    .spot .details h3 span::after {
+        bottom: -80%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .btn-group.area-hide {
+        display: none !important;
+    }
+    .display-group {
+        display: flex !important;       
+    }
+
+    .navbar-nav {
+        align-items: center;
+        width:100%;
+        position: relative;
+    }
+
+    .navbar .drop::before {       
+        border:none;
+    }
+ 
+    .navbar-nav .nav-link:not(.dropdown-toggle) {        
+        padding: 20px 0px;
+    }
+    
+   /* section preview media style */
+   .cont::before {
+    display: none;
+   }
+
+   .preview .video video {
+    width: 100%;
+   }
+
+   .brush {
+    display: none;
+   }
+
+   .preview .details p {
+     width: 100%;     
+   }
+}
