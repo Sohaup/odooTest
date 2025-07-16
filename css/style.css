@@ -71,6 +71,10 @@ p {
     max-width: 200px;
 }
 
+.max-w-none {
+    max-width: none;
+}
+
 .font-rem {
     font-size: 1rem !important;
 }
@@ -325,7 +329,7 @@ p {
     border-bottom-left-radius: 0;
     position: absolute;
     bottom: 0;
-    top:8%;
+    top:10%;
     width: 100%;
     height: 100%;
     z-index: -1;
