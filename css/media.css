@@ -1,12 +1,13 @@
 @media screen and (max-width:576px) {
+    /* preview media style */
     .preview .details p {
         font-size: 1rem;
     }
-
    
 }
 
 @media screen and (max-width:768px) {
+    /* loyality medua style */
     .loyality .money-img , .loyality .heart-img {
         display: none;
     } 
@@ -32,6 +33,16 @@
     .loyality .visuals .img-annabel {
         width: 80%;
         margin-inline: auto;
+    }
+
+    /* spot media style */
+
+    .spot .details h3  {
+        width: 80% ;
+    }
+
+    .spot .details h3 span::after {
+        bottom: -80%;
     }
 }
 

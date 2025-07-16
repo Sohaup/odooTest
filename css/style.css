@@ -17,6 +17,13 @@
     --terquise:rgb(1,126,132);
     --paragraph-color:rgb(55,65,81);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html , body {
     font-family: "Inter", sans-serif;
 }
@@ -68,6 +75,10 @@ p {
     font-size: 1rem !important;
 }
 
+.font-1_2rem {
+    font-size: 1.2rem;
+}
+
 .font-1_5rem {
     font-size: 1.5rem;
 }
@@ -101,6 +112,12 @@ p {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.text-purple {
+    color: var(--main-color);
+} 
+.rotate-8 {
+    transform: rotate(-8deg);
+}
 /* navbar style */
 .navbar {
   background-color: var(--light);
@@ -449,3 +466,21 @@ p {
 .loyality .visuals .img-annabel {
     width: 25%;
 }
+
+/* section spot style */
+
+.spot .details h3 span {
+    position: relative;
+}
+
+.spot .details h3 span::after {
+    content: " ";
+    position: absolute;
+    bottom:-50%;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    height: 100px;
+    background-image: url("/imgs/imgi_69_yellow_highlight_bold_06.svg");
+    background-repeat: no-repeat;
+} 
