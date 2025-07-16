@@ -2,8 +2,38 @@
     .preview .details p {
         font-size: 1rem;
     }
+
+   
 }
 
+@media screen and (max-width:768px) {
+    .loyality .money-img , .loyality .heart-img {
+        display: none;
+    } 
+   
+
+    .loyality h3 {
+        width: 100%;  
+        text-align: center;
+        transform: translateX(-10%);
+    }
+
+    .loyality .details p {
+        width: 100%; 
+        text-align: center;       
+    }
+
+
+    .loyality .visuals .img-tom   {
+       width: 80%;
+       margin-inline: auto;
+    }
+   
+    .loyality .visuals .img-annabel {
+        width: 80%;
+        margin-inline: auto;
+    }
+}
 
 @media screen and (max-width:992px) {
     .btn-group.area-hide {
