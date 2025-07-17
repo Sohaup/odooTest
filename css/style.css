@@ -15,7 +15,7 @@
     --dark-orange:rgb(213,101,62);
     --btn-gray-hover:rgb(223, 224, 228);
     --terquise:rgb(1,126,132);
-    --paragraph-color:rgb(55,65,81);
+    --paragraph-color:rgb(55,65,81);    
 }
 
 * {
@@ -488,3 +488,46 @@ p {
     background-image: url("/imgs/imgi_69_yellow_highlight_bold_06.svg");
     background-repeat: no-repeat;
 } 
+
+/* section feature styles */
+.featurs {
+   background-color: var(--secondary);
+   border-radius: 15% 0px 15% 0px;
+}
+.featurs .title h3 span:nth-child(1) {   
+    background-image: url("../imgs/imgi_73_circle.svg");
+    background-size: 100%;
+    background-origin:padding-box ;
+    background-repeat: no-repeat;   
+    padding: 20px 5px;
+} 
+
+.featurs .title h3 span:nth-child(2) {      
+    background-image: url("/imgs/imgi_67_blue_highlight_01.svg");
+}
+
+.featurs .card {
+    position: relative;
+    border:none;
+}
+
+.featurs .card::after {
+    content: "";
+    position: absolute;
+    top:0;
+    right:10%;
+    background-color: var(--secondary);
+    border-radius:0px 0px 30% 30% ;
+    width:50px;
+    height: 50px;
+    background-image: url("/imgs/imgi_23_yellow_star.svg");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-origin: border-box;
+} 
+
+.featurs .foot a {
+    color: var(--grean);
+}
