@@ -44,6 +44,9 @@
     .spot .details h3 span::after {
         bottom: -80%;
     }
+    
+    /* section need media */
+    
 }
 
 @media screen and (max-width:992px) {
@@ -92,6 +95,11 @@
    } 
 
 .featurs .title h3 span:nth-child(2) {
+    background-image: none;
+}
+
+  /* section need style */  
+  .need .title h3 span::after  {
     background-image: none;
 }
 }
