@@ -4,6 +4,14 @@
         font-size: 1rem;
     }
    
+    /* section join media */
+    .join .card {
+        border-radius: 0;
+        width: 100%;       
+
+    }
+
+    
 }
 
 @media screen and (max-width:768px) {
@@ -94,12 +102,22 @@
     background-image: none;    
    } 
 
-.featurs .title h3 span:nth-child(2) {
+  .featurs .title h3 span:nth-child(2) {
     background-image: none;
-}
+  }
 
   /* section need style */  
   .need .title h3 span::after  {
     background-image: none;
-}
+  }
+
+  /* section join style */
+
+  .quote .views {
+    position: static;
+  }
+
+  .quote .texts {
+    width: 100%;
+  }
 }
