@@ -140,12 +140,17 @@ p {
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-nav-link-padding-x: 0.9rem;
-    
+  position: fixed;   
+  top:0;
+  width: 100%;
+  z-index: 2000;
+  
 }
+
+
 .navbar .drop {
     position: relative;
-    cursor: pointer;
-   
+    cursor: pointer;   
 }
 
 .navbar .drop::before {
