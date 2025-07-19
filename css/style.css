@@ -15,7 +15,9 @@
     --dark-orange:rgb(213,101,62);
     --btn-gray-hover:rgb(223, 224, 228);
     --terquise:rgb(1,126,132);
-    --paragraph-color:rgb(55,65,81);    
+    --paragraph-color:rgb(55,65,81);   
+    --footer-bg:rgb(37,39,51); 
+    --footer-foot:rgb(26,28,36);
 }
 
 * {
@@ -669,3 +671,51 @@ p {
     z-index: -1;
     background-repeat: space;
 }
+
+/* footer style */
+footer {
+    background-color: var(--footer-bg);
+}
+
+footer .logo {
+    position: relative;
+    padding: 10px 0px;
+} 
+
+footer .logo::after {
+    content: "";
+    position: absolute;
+    left:45%;
+    width: 100px;
+    height: 50px;    
+    background-image: url("/imgs/imgi_66_odoo_logo.svg");
+    background-size: 200px;
+    background-position: start;
+    background-repeat: no-repeat;
+}
+
+footer h4 {
+    color: var(--light);
+}
+
+footer p {
+    color: var(--secondary);
+}
+
+footer .foot {
+    background-color: var(--footer-foot);
+}
+
+footer .foot .foot-p::after {
+    content: " ";
+    position: absolute;
+    right: -60px;
+    top:15px;      
+    background-image: url("/imgs/imgi_66_odoo_logo.svg");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: start;
+    width: 50px;
+    height: 50px;
+} 
+

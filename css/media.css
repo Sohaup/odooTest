@@ -11,6 +11,12 @@
 
     }
 
+    /* footer media style */
+
+    footer .logo::after {
+        left:40%;
+    }
+
     
 }
 
