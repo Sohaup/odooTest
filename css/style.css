@@ -577,7 +577,7 @@ p {
 
 /* section join style */
 .join .container {
-    background-image: url("/imgs/imgi_75_users_01.webp");   
+    background-image: url("../imgs/imgi_75_users_01.webp");   
     background-size: cover;   
     animation-name: changeUsersBgImage;
     animation-duration: 10s;
@@ -600,15 +600,15 @@ p {
 
 @keyframes changeUsersBgImage{
     0% {
-        background-image: url("/imgs/imgi_75_users_01.webp");
+        background-image: url("../imgs/imgi_75_users_01.webp");
     }
 
     50% {
-        background-image: url("/imgs/imgi_76_users_02.webp");
+        background-image: url("../imgs/imgi_76_users_02.webp");
     }
 
     100% {
-        background-image: url("/imgs/imgi_75_users_01.webp");
+        background-image: url("../imgs/imgi_75_users_01.webp");
     }
 }
 
