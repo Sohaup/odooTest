@@ -74,6 +74,10 @@
         display: flex !important;       
     }
 
+    .navbar {
+        position: static;        
+    }
+
     .navbar-nav {
         align-items: center;
         width:100%;
